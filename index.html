@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISS Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+ 
+</head>
+<body>
+    <div id="header">
+    <h1>
+        Welcome to Liora's ISS Tracker page!
+    </h1>
+</div>
+<div id="container">
+
+    <div id="stats">
+        <p>
+        ISS ID: <span id = "idName"> loading...</span>
+
+     </p>
+    
+  
+     <p>
+        Latitude: <span id="Lat"> loading...</span> °
+
+     </p>
+        
+        <p>
+        Longitude: <span id ="Lon"> loading...</span> °
+
+        </p>
+        <p>
+        Altitude: <span id ="Alt"> loading...</span> km
+        </p>
+        <p>
+        Velocity: <span id ="Vel"> loading...</span> km/h
+        </p>
+        <p>
+        Visibility (ISS in sunlight or Earth's shadow): <span id ="Vis"> loading...</span>
+        </p>
+        <p>
+        Timestamp: <span id ="Time"> loading...</span>
+        </p>
+        <p>
+        Julian Day number (days since starting point in 4713 BC): <span id ="Day"> loading...</span>
+        </p>
+        <p>
+        Solar latitude (spot on Earth where the sun is directly overhead): <span id ="sLat"> loading...</span> °
+
+        </p>
+        <p>
+        Solar longitude (spot on Earth where the sun is directly overhead): <span id ="sLon"> loading...</span> °
+
+        </p>
+    </div>
+
+<div id="map" style="height: 400px;" >
+<button id="resetP">Reset Path</button></div>
+</div>
+
+       
+<script src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src = "script.js"></script>
+
+    
+</body>
+</html>

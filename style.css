@@ -1,0 +1,22 @@
+body{
+    background-color: hwb(301 70% 5%);
+}
+
+#map{
+    flex:1;
+    padding: 16px;
+    border-radius: 12px;
+    background-color:hwb(300 84% 4%);
+    
+}
+#stats{
+    background-color:hwb(300 84% 4%);
+    padding: 16px;
+    width:500px;
+    border-radius:12px;
+    font-family: "Life Savers", serif;
+}
+#header{
+        font-family: "Life Savers", serif;
+
+}

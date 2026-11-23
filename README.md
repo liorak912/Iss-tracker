@@ -1,5 +1,5 @@
 # International Space Station Tracker
-A real-time ISS tracker I built to learn how APIs work! Ever wondered where the International Space Station is right now? This tracker pulls its live position every 3 seconds and follows it across a world map, leaving a trail of its path.
+A real-time ISS tracker I built...Ever wondered where the International Space Station is right now? This tracker pulls its live position every 3 seconds and follows it across a world map, leaving a trail of its path.
 ![Screenshot of the tracker](image.png)
 ## Live demo
 [See the ISS live->](https://liorak912.github.io/Iss-tracker/ )
